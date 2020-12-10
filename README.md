@@ -4,4 +4,4 @@ Violin plot represents the density distribution of a dataset. It is fundamentall
 Reference - Daniel Adler and S. Thomas Kelly (2020). vioplot: violin plot. R package version 0.3.5
 https://github.com/TomKellyGenetics/vioplot
 
-ggplots2 was used to construct the violin plots here.
+ggplot2 was used to construct the violin plots here.
