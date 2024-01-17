@@ -22,7 +22,7 @@ diamonds
 ###One can load their own datasets as a dataframe
 
 png("violinplot.png",width = 5*300,  height = 5*300, res = 300)
-gplot(diamonds,aes(x=cut,y=price))+geom_violin(aes(fill = cut))+geom_boxplot(width=0.1) + ggtitle("Diamond cuts and price distribution")
+ggplot(diamonds,aes(x=cut,y=price))+geom_violin(aes(fill = cut))+geom_boxplot(width=0.1) + ggtitle("Diamond cuts and price distribution")
 dev.off()
 
 ###This will generate a violin plot along with a box plot inside
